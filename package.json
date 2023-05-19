@@ -1,0 +1,90 @@
+{
+  "name": "datafication",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@jiaminghi/data-view": "^2.10.0",
+    "axios": "^1.3.2",
+    "clipboard": "^2.0.6",
+    "codemirror": "^5.57.0",
+    "connect": "^3.7.0",
+    "core-js": "^3.8.3",
+    "driver.js": "^0.9.8",
+    "dropzone": "^5.7.2",
+    "echarts": "^4.8.0",
+    "element-ui": "^2.13.2",
+    "file-saver": "^2.0.2",
+    "js-cookie": "^2.2.1",
+    "jsonlint": "^1.6.3",
+    "jszip": "^3.5.0",
+    "mockjs": "^1.1.0",
+    "node-polyfill-webpack-plugin": "^2.0.1",
+    "node-sass": "^8.0.0",
+    "normalize.css": "^8.0.1",
+    "nprogress": "^0.2.0",
+    "pako": "^1.0.11",
+    "path-to-regexp": "^3.2.0",
+    "qs": "^6.9.4",
+    "sass-loader": "^13.2.2",
+    "screenfull": "^5.0.2",
+    "scss": "^0.2.4",
+    "scss-loader": "^0.0.1",
+    "showdown": "^1.9.1",
+    "sortablejs": "^1.10.2",
+    "svg-sprite-loader": "^5.2.1",
+    "three": "^0.119.1",
+    "vue": "^2.6.14",
+    "vue-count-to": "^1.0.13",
+    "vue-i18n": "^8.21.0",
+    "vue-router": "3.1.3",
+    "vue-splitpane": "^1.0.6",
+    "vuedraggable": "^2.24.1",
+    "vuex": "^3.4.0",
+    "xlsx": "^0.16.6"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-plugin-router": "^5.0.8",
+    "@vue/cli-plugin-vuex": "^5.0.8",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "less": "^4.1.3",
+    "less-loader": "^11.1.0",
+    "sass-loader": "^13.2.2",
+    "script-loader": "^0.7.2",
+    "svg-sprite-loader": "^6.0.11",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "@babel/eslint-parser"
+    },
+    "rules": {
+      "no-control-regex": 0,
+      "no-undef": "off",
+      "no-unused-vars": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
