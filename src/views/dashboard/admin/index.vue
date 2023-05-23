@@ -32,7 +32,6 @@
           <MapBaidu 
             ref="MapBaiduref" 
             id="MapBaiduref" 
-            class="map-baidu" 
             :map-baidu-data="responseData"
             @fixedPosition="mapbaiduv" />
           <!-- <el-cascader 
@@ -943,14 +942,6 @@ export default {
       position: relative;
       width: 100%;
       overflow: hidden;
-
-      .map-baidu {
-        position: absolute;
-        top: 0.5%;
-        left: 0.26%;
-        height: 99%;
-        width: 99.48%;
-      }
     }
   }
 }

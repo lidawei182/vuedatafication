@@ -1,7 +1,7 @@
 
-//const formal = 'http://www.mmcall.test.net/index.php';
-
-const formal = 'http://www.mmcall.net:7002/index.php';
+const formal = 'http://www.mmcall.test.net/index.php';
+//7002 - 7003
+//const formal = 'http://www.mmcall.net:7002/index.php';
 
 export default {
   // 应用appid

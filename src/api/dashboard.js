@@ -16,6 +16,30 @@ export function mapIntegration(jdno) {
   })
 }
 
+export function mapPositioning(query) {
+  return request({
+    url: '/admin/Index/mapPositioning',
+    method: 'post',
+    data: query
+  })
+}
+
+export function getMapPositioning(query) {
+  return request({
+    url: '/admin/Index/getMapPositioning',
+    method: 'post',
+    data: query
+  })
+}
+
+export function updateMapPg(query) {
+  return request({
+    url: '/admin/Index/updateMapPg',
+    method: 'post',
+    data: query
+  })
+}
+
 export function dateCallsList(query) {
   return request({
     url: '/admin/Index/dateCallsList',
